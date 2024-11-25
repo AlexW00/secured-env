@@ -7,8 +7,8 @@ Utility script to source environment variables from 1Password. Use this script i
 1. Install the 1Password CLI from https://1password.com/downloads/command-line/
 2. Clone this repository (e.g. `git clone https://github.com/AlexW00/secured-env $HOME/.config`)
 3. Create and configure a secured-env-config.sh file (see [secured-env-config-example.sh](secured-env-config-example.sh) for an example)
-4. Export the path to your **config file** as SECURED_ENV_CONFIG_PATH (e.g. `export SECURED_ENV_CONFIG_PATH=$HOME/.config/secured-env/secured-env-config.sh`) (e.g. in your .bashrc or .zshrc file)
-5. Source the **main script** (e.g. `source $HOME/.config/secured-env/secured-env.sh`) (after the previous steps) (e.g. in your .bashrc or .zshrc file)
+4. Export the path to your **config file** as SECURED_ENV_CONFIG_PATH (e.g. `export SECURED_ENV_CONFIG_PATH=$HOME/.config/secured-env/secured-env-config.sh`) in your .bashrc or .zshrc file
+5. Source the **main script** (e.g. `source $HOME/.config/secured-env/secured-env.sh`) (after the previous steps) in your .bashrc or .zshrc file
 
 Example configuration (`.bashrc` or `.zshrc`):
 
