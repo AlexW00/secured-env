@@ -2,6 +2,8 @@
 
 Utility script to source environment variables from 1Password. Use this script if you don't want to store your API Keys and other sensitive information as plain text in your environment, available to anyone/all programs with access to your shell.
 
+https://github.com/user-attachments/assets/05bb1ce8-1134-412f-883d-015615fe3a4c
+
 ### Installation
 
 1. Install the 1Password CLI from https://1password.com/downloads/command-line/
